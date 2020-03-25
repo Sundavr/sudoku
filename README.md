@@ -1,5 +1,6 @@
 Projet Netbeans de génération de grilles de sudoku.
-L'exécutable se trouve dans le dossier dist.
+L'exécutable se trouve dans le dossier dist, un exécutable windows est 
+également disponible à la racine.
 
 L'application propose une génération de grille de sudoku à imprimer,
 ainsi qu'un solver de grille qui permet également d'évaluer la difficulté 
