@@ -1,0 +1,21 @@
+.root{
+    -fx-background: rgb(245, 228, 203);
+}
+
+.button {
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+    -fx-background-color: rgba(0, 0, 0, 0);
+}
+
+.button:hover {
+    -fx-cursor: hand;
+}
+
+.button:pressed {
+    -fx-cursor: default;
+}
+
+#cancelButton {
+    -fx-background-image: url('../buttons/Cancel.png');
+}

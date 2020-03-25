@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="320.0" prefWidth="490.0" stylesheets="@../css/BeforeCreate.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sudoku.BeforeCreateController">
+   <children>
+      <Button fx:id="homeButton" contentDisplay="CENTER" layoutX="14.0" layoutY="14.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#homeButtonAction" prefHeight="40.0" prefWidth="110.0" />
+      <Button fx:id="createButton" contentDisplay="CENTER" layoutX="163.0" layoutY="232.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#createButtonAction" prefHeight="60.0" prefWidth="128.0" />
+      <ChoiceBox fx:id="difficultyChoiceBox" layoutX="195.0" layoutY="140.0" minHeight="-Infinity" onAction="#difficultyChoiceBoxAction" prefHeight="40.0" prefWidth="218.0" />
+      <Label fx:id="difficultyLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="77.0" layoutY="147.0" prefHeight="27.0" prefWidth="73.0" text="Difficulty :" />
+      <ImageView fx:id="preloaderImageView" fitHeight="60.0" fitWidth="94.0" layoutX="330.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../preloader.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="nbGridsLabel" layoutX="436.0" layoutY="152.0" visible="false" />
+      <Button fx:id="cancelButton" contentDisplay="CENTER" layoutX="424.0" layoutY="242.0" minHeight="-Infinity" mnemonicParsing="false" onAction="#cancelButtonAction" prefHeight="40.0" prefWidth="42.0" visible="false" />
+   </children>
+</AnchorPane>
