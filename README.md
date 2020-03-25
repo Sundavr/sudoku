@@ -8,7 +8,8 @@ d'une grille.
 
 Le calcul de la difficulté est effectué en se basant sur le nombre de 
 techniques à employer pour résoudre la grille.
-Plus d'information sur :   GNU nano 4.6                       README.md                        Modified
+Plus d'information sur :
+https://web.imt-atlantique.fr/x-info/jussien/publications/laburthe-JFPC06.pdf
 Projet Netbeans de génération de grilles de sudoku.
 L'exécutable se trouve dans le dossier dist.
 
